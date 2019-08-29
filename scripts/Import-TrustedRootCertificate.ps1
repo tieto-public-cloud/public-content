@@ -1,7 +1,7 @@
 Param(
     [Parameter(Mandatory = $false)]
     [string]
-    $BaseUri = "https://sslinspectionstorage2908.blob.core.windows.net/certs",
+    $BaseUri = "https://sslinspectionstorage2908.blob.core.windows.net/certs", # Url of the storage account container
 
     [Parameter(Mandatory = $false)]
     [string]
