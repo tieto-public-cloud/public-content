@@ -37,13 +37,13 @@ None
 #>
 
 Param(
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $true)]
     [string]
-    $BaseUri = "https://sslinspectionstorage2908.blob.core.windows.net/certs", # Url of the storage account container
+    $BaseUri, # Url of the storage account container
 
-    [Parameter(Mandatory = $false)]
+    [Parameter(Mandatory = $true)]
     [string]
-    $CertName = "CACert.crt" # Root public certificate file name 
+    $CertName # Root public certificate file name 
 )
 
 # Script variables (do not modify)
