@@ -1,3 +1,41 @@
+#requires -version 2
+
+<#
+.SYNOPSIS
+
+    Import Trusted Root Certificate
+
+.DESCRIPTION
+
+    This script imports a public certificate from public Azure Storage blob to the computer trusted root certification authorities
+
+.PARAMETER BaseUri
+    Url of the storage account container
+
+.PARAMETER CertName
+    Root public certificate file name
+
+.INPUTS
+
+None
+
+.OUTPUTS
+
+None
+
+
+.NOTES
+
+  Version:        1.0
+
+  Author:         Ondrej Vaclavu
+
+  Creation Date:  2019/08/29
+
+.EXAMPLE
+
+#>
+
 Param(
     [Parameter(Mandatory = $false)]
     [string]
